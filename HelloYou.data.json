@@ -1,0 +1,29 @@
+{
+  "name": "HelloYou",
+  "compilations": [
+    {
+      "sourcepath": [
+        "/home/parasoft/Projects/GitHubRepo/git/helloyou/src"
+      ],
+      "includes": [],
+      "excludes": [],
+      "binarypath": [],
+      "classpath": [],
+      "bootpath": [
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/management-agent.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/compilefontconfig.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/javazic.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar",
+        "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar"
+      ],
+      "encoding": "UTF-8",
+      "sourcelevel": "1.7"
+    }
+  ],
+  "type": "classpath_project",
+  "location": "/home/parasoft/Projects/GitHubRepo/git/helloyou"
+}
