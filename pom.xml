@@ -5,9 +5,34 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloYou</name>
   <description>Simple App for Code Testing</description>
+  <url>https://github.com/dtran65/helloyou.git</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+  
+    <scm>
+        <connection>scm:git:https://github.com/dtran65/helloyou.git</connection>
+        <developerConnection>scm:git:https://github.com/dtran65/helloyou.git</developerConnection>
+        <url>https://github.com/dtran65/helloyou.git</url>
+    </scm>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
+	<plugin>
+		<groupId>com.parasoft.jtest</groupId>
+		<artifactId>jtest-maven-plugin</artifactId>
+		<version>1.0.4</version>
+		<configuration>
+			<config>builtin://Demo Configuration</config>
+			<settings>scanHelloYouWS.properties</settings>
+			<report>report</report>
+			<publish>true</publish>
+		</configuration>
+	</plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
@@ -18,4 +43,19 @@
       </plugin>
     </plugins>
   </build>
+
+  <reporting>
+	<plugins>
+		<plugin>
+			<groupId>com.parasoft.jtest</groupId>
+			<artifactId>jtest-maven-plugin</artifactId>
+			<version>1.0.4</version>
+			<configuration>
+				<config>builtin://Demo Configuration</config>
+			</configuration>
+			<inherited>false</inherited>
+		</plugin>
+	</plugins>
+  </reporting>
+
 </project>
