@@ -24,7 +24,7 @@
 	<plugin>
 		<groupId>com.parasoft.jtest</groupId>
 		<artifactId>jtest-maven-plugin</artifactId>
-		<version>1.0.4</version>
+		<version>1.0.5</version>
 		<configuration>
 			<config>builtin://Demo Configuration</config>
 			<settings>scanHelloYouWS.properties</settings>
@@ -49,7 +49,7 @@
 		<plugin>
 			<groupId>com.parasoft.jtest</groupId>
 			<artifactId>jtest-maven-plugin</artifactId>
-			<version>1.0.4</version>
+			<version>1.0.5</version>
 			<configuration>
 				<config>builtin://Demo Configuration</config>
 			</configuration>
